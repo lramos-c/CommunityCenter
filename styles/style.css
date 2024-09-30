@@ -1,0 +1,124 @@
+body{
+    background-color:peachpuff;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial ;
+    font-size: 60px;
+}
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+    height: 60%;
+}
+
+h2 {
+    
+    font-family:Arial ;
+    font-size: 40px;
+    color: #5C6BC0;
+}
+
+#carla  {
+    border-radius: 10%;
+    margin-top: 10px;
+    
+}
+
+#clases {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+#testimonios {
+    border: 10px solid black;
+    text-align: center;
+    width: 95%;
+    font-size: 30px;
+    border-radius: 0%;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+div {
+    float: inline-end;
+    text-align: center;
+    border: 5px solid orange;
+    border-radius: 8%;
+    width: 30%;
+    background-color:seagreen;
+    margin: 10px;
+    padding-right:10px ;
+
+}
+
+#horario {
+    font-size: 20px;
+    border: #5C6BC0 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    align-items: center;
+    height: 40px;
+}
+
+form {
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial ;
+    color: black;
+    border: #5C6BC0 2px solid;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: seagreen;
+}
+
+label {
+    display: block;
+}
+
+input { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 40px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 200px;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}

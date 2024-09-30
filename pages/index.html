@@ -1,17 +1,18 @@
-<HTML>
+<HTML lang="es">
 <HEAD>
+<link rel="stylesheet" href="/styles/style.css">
 <TITLE>Community Center</TITLE>
 </HEAD>
 <BODY>
 
 <h1>Generation Community Center</h1>
-<img src="/assets/frontcommunity.jpg" alt="Fachada del centro comunitario">
+<img src="/assets/frontcommunity.jpg" alt="Fachada del centro comunitario" width="1000" height="800" class="image1">
 
 <hr>
 
 <h2>Horario de atención</h2>
 
-<table>
+<table id="horario">
     <tr>
         <th>Lunes</th>
         <th>Martes</th>
@@ -29,30 +30,65 @@
 </table>
 
 <hr>
+<h2>Redes Sociales</h2>
+<a href="https://facebook.com" target="_blank"><img src="https://cdn-icons-png.freepik.com/256/15707/15707884.png?semt=ais_hybrid" alt="" class="logo"></a>
+<a href="https://instagram.com" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQtpHFFaMw_0RtE4I7PodWeMdgMhXcZgnYw&s" alt="" class="logo"></a>
 
-<a href="#">Facebook</a>
-<a href="#">Instagram</a>
 
+<hr>
+<h2>Testimonios</h2>
 
+<div id="Testimonios">
+<div>
+<img src="/assets/testimonio-n.jpeg" alt="Carla" width="200" height="300" id="carla">
+<h3>Carla</h3>
+<p>"Las clases de danza aquí me han permitido expresarme de una manera que nunca imaginé. ¡Me encanta!"</p>
+</div>
+<div>
+<img src="/assets/testimonio-n.jpeg" alt="Carla" width="200" height="300" id="carla">
+<h3>Carla</h3>
+<p>"Las clases de danza aquí me han permitido expresarme de una manera que nunca imaginé. ¡Me encanta!"</p>
+</div>
+<div>
+<img src="/assets/testimonio-n.jpeg" alt="Carla" width="200" height="300" id="carla">
+<h3>Carla</h3>
+<p>"Las clases de danza aquí me han permitido expresarme de una manera que nunca imaginé. ¡Me encanta!"</p>
+</div>
+</div>
 
 <!-- table about activities in the community center -->
+<hr>
+<h2>Clases del centro</h2>
+<table id="clases">
 
-<table></table>
     <tr>
         <th>Bingo</th>
         <th>Ajedrez</th>
         <th>Danza</th>
         <th>Cocina</th>
         <th>CineClub</th>
-    </tr>
+    </tr>    
+    </br>
     <tr>
-        <td><img src="" alt=""></td>
-        <td><img src="" alt=""></td>
-        <td><img src="" alt=""></td>
-        <td><img src="" alt=""></td>
-        <td><img src="" alt=""></td>
+        <td><img src="/assets/bingo.jpg" alt="Clase de Bingo" height="300" width="200"></td>
+        <td><img src="/assets/chess.jpg" alt="Clase de Ajedrez" height="300" width="200"></td>
+        <td><img src="/assets/dance.jpg" alt="Clase de Danza" height="300" width="200"></td>
+        <td><img src="/assets/cook.jpg" alt="Clase de Cocina" height="300" width="200"></td>
+        <td><img src="/assets/cineclub.jpg" alt="Clase de CineClub" height="300" width="200"></td>
     </tr>
 </table>
+<h2>Formulario de contacto</h2>
+<form action="" method="post">
+    
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="user_name">
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="user_email">
+    <label for="msg">Comentario:</label>
+    <textarea id="msg" name="user_message"></textarea>
+    <input type="submit" value="Enviar">
+</form>
+
 
 </BODY>
 
